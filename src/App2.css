@@ -1,0 +1,38 @@
+.sec1{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.sec2{
+    margin: 4px;
+    width: 20vw;
+    padding: 8px;
+    border-radius: 15px;
+    /* color: black; */
+    background-color: rgb(62, 62, 62);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.inline{
+    display: inline-block;width: 45vw;
+    margin: 1vw;
+    top: 0;
+}
+/* .black{
+    color: black;
+} */
+.flex2{
+    display: flex;
+    align-items: baseline;
+}
+.bodyw{
+    background-color: transparent;
+}
+.citybtn:hover{
+    background-color: rgb(86, 86, 86);
+}

@@ -1,0 +1,82 @@
+.gbody{
+    background-color: rgb(38, 0, 255);
+}
+.gimg{
+    height: 80px;
+    padding: 5px;
+    margin: 5px;
+
+}
+.gsec{
+    border: 1px solid transparent;
+    background-color: transparent;
+    margin: 10px;
+    cursor: pointer;
+}
+.gsec:hover{
+    border-color: white;
+}
+.gtitle{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    left: 0;
+}
+.gsec{
+    display: flex;
+    font-size: 16px;
+    justify-content: flex-start;
+}
+.strick{
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+.gprice{
+    display: flex;
+    flex-direction: row;
+    left: 0;
+
+}
+.gbox{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grate{
+    width: 20vw;
+    left: 0;
+}
+.gsearch{
+    width: 80vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.gsearchbox{
+    padding: 4px 15px;
+    margin: 10px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: rgb(66, 66, 66);
+    font-size: 20px;
+}
+.gsearchbox:hover{
+    border-color: aqua;
+}
+.gicon{
+    font-size: 30px;
+}
+.gselect{
+    background-color: rgb(85, 85, 85);
+}
+.prevnext{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+}

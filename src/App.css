@@ -1,0 +1,149 @@
+*{
+  color: white;
+  background-color: transparent;
+}
+.navb{
+  display: inline-block;
+  padding: 5px;
+  font-size: 30px;
+  margin: 10px;
+}
+.nav{
+  width: 99vw;
+  padding: 1px;
+}
+.search{
+  background-color: transparent;
+  display: inline-flex;
+  width: 70vw;
+  justify-content: center;
+}
+.bar{
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 5px 8px;
+}
+.bar:hover{
+  background-color: rgb(201, 201, 201);
+  border-color: black;
+}
+.logo{
+  
+}
+.mag{
+  display: inline-block;
+  padding: 5px;
+  font-size: 40px;
+  margin: 5px;
+}
+.srh{
+  width: 300px;
+  height: 45px;
+  font-size: 15px;
+  border: 3px solid rgb(13, 0, 255);
+  border-radius: 100px;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 5px;
+}
+.srh:hover{
+  border-color: rgb(255, 0, 0);
+}
+.srh:active{
+  border-color: aqua;
+}
+.modal{
+  position: fixed;
+  width: 100%;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(117, 117, 117, 0.5);
+}
+.card{
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.img1{
+  width: 300px;
+}
+.name{
+  font-size: 30px;
+  padding: 5px;
+  color: black;
+}
+.explore{
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+.img2{
+  width: 150px;
+}
+.name2{
+  font-size: 20px;
+  padding: 5px;
+  width: 150px;
+}
+.cardq{
+  display: flex;
+  width: 95vw;
+  flex-direction: row;
+  align-items: normal;
+  justify-content: space-between;
+  overflow: auto;
+  scrollbar-color: black;
+}
+.card2{
+  display: inline-block;
+  margin: 10px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.name:hover{
+  color: blue;
+}
+.modal1{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(21, 21, 21);;
+}
+.imagedet{
+  height: 95vh;
+  display: inline-block;
+}
+.detail{
+  margin: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  width: auto;
+  position: fixed;
+  top: 0;
+}
+.det{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+.tile{
+  font-size: 35px;
+  padding: 20px;
+  text-decoration: underline;
+}
+.box{
+  font-size: 20px;
+}
+.long{
+  font-size: 14px;
+}
